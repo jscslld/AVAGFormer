@@ -1,0 +1,68 @@
+theme: default # default || classic || dark
+organization: Nanjing University
+twitter:
+title: 'Learning Visual Affordance from Audio'
+journal: 'Under Review'
+resources:
+  paper: # https://openreview.net/
+  arxiv: https://arxiv.org/abs/xxxxx
+  code: https://github.com/jscslld/AVAGFormer
+  video:
+  demo:
+  benchmark: https://huggingface.co/datasets/lulidong/AVAGD
+  checkpoint:
+description: academic projectpage template that supports markdown and KaTeX
+
+image: https://denkiwakame.github.io/academic-project-template/teaser.jpg
+url: https://denkiwakame.github.io/academic-project-template
+speakerdeck: # speakerdeck slide ID
+authors:
+  - name: Lidong Lu
+    affiliation: [1]
+    url: https://lulidong.com/
+    position: Student
+  - name: Guo Chen
+    affiliation: [1]
+    position: Student
+    url: https://cg1177.github.io/
+  - name: Wei Zhu
+    affiliation: [2]
+    position: Researcher
+    url:
+  - name: Yicheng Liu
+    affiliation: [1]
+    position: Student
+    url:
+  - name: Tong Lu
+    affiliation: [1]
+    position: Professor
+    url: https://cs.nju.edu.cn/lutong/index.htm
+affiliations:
+  - Nanjing University
+  - China Mobile Communications Company Limited Research Institute
+meta:
+  -
+bibtex: >
+  test
+
+abstract: |
+  <p style="text-align:justify">
+    We introduce Audio-Visual Affordance Grounding (AV-AG), a new task that segments object interaction regions from action sounds. Unlike existing approaches that rely on textual instructions or demonstration videos, which often limited by ambiguity or occlusion, audio provides real-time, semantically rich, and visually independent cues for affordance grounding, enabling more intuitive understanding of interaction regions. To support this task, we construct the first AV-AG dataset, comprising a large collection of action sounds, object images, and pixel-level affordance annotations. The dataset also includes an unseen subset to evaluate zero-shot generalization. Furthermore, we propose AVAGFormer, a model equipped with a semantic-conditioned cross-modal mixer and a dual-head decoder that effectively fuses audio and visual signals for mask prediction. Experiments show that AVAGFormer achieves state-of-the-art performance on AV-AG, surpassing baselines from related tasks. Comprehensive analyses highlight the distinctions between AV-AG and AVS, the benefits of end-to-end modeling, and the contribution of each component.
+  </p>
+
+projects: # relevant projects
+  - title: 'CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding'
+    description: CG-Bench is the largest benchmark for clue-grounded question answering in long videos, featuring 1,219 curated videos and 12,129 QA pairs across perception, reasoning, and hallucination tasks. It introduces clue-based white box and black box evaluations to assess genuine video understanding, revealing significant performance gaps among MLLMs.
+    img: https://cg-bench.github.io/leaderboard/resources/teaser.png
+    journal: "ICLR'25"
+    url: https://cg-bench.github.io/leaderboard/
+  # - title: Relevant Project II
+  #   description: abstract text
+  #   img: 001.jpg
+  #   journal: "EFGH'22"
+  #   url: https://denkiwakame.github.io/academic-project-template/
+  # - title: Relevant Project III
+  #   description: abstract text
+  #   img: 002.jpg
+  #   journal: "IJKL'22"
+  #   url: https://denkiwakame.github.io/academic-project-template/
