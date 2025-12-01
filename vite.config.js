@@ -13,7 +13,7 @@ export default defineConfig({
   },
   plugins: [react(), yaml()],
   build: {
-    outDir: 'build',
+    outDir: 'docs',
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'index.html'),

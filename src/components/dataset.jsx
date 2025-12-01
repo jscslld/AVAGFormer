@@ -174,24 +174,24 @@ export default class Dataset extends React.Component {
         </h3>
         <Carousel arrows infinite={false} dots={false}>
           <ImageMaskSlider
-            imageSrc="/examples/bike/ride/OIDV7_0a31ecb885a97211.jpg"
-            funcMaskSrc="/examples/bike/ride/OIDV7_0a31ecb885a97211_Function_mask.png"
-            depMaskSrc="/examples/bike/ride/OIDV7_0a31ecb885a97211_Dependency_mask.png"
-            audioSrc="/examples/bike/ride/1zVsl0uqdyE_17.99_31.52.mp3"
+            imageSrc="./examples/bike/ride/OIDV7_0a31ecb885a97211.jpg"
+            funcMaskSrc="./examples/bike/ride/OIDV7_0a31ecb885a97211_Function_mask.png"
+            depMaskSrc="./examples/bike/ride/OIDV7_0a31ecb885a97211_Dependency_mask.png"
+            audioSrc="./examples/bike/ride/1zVsl0uqdyE_17.99_31.52.mp3"
             transcript="Bike - Ride"
           ></ImageMaskSlider>
           <ImageMaskSlider
-            imageSrc="/examples/axe/chop/Flickr1_82949260_9859ca6c20_o.jpg"
-            funcMaskSrc="/examples/axe/chop/Flickr1_82949260_9859ca6c20_o_Function_mask.png"
-            depMaskSrc="/examples/axe/chop/Flickr1_82949260_9859ca6c20_o_Dependency_mask.png"
-            audioSrc="/examples/axe/chop/0OH2mR4-nX0_2.82_5.72.mp3"
+            imageSrc="./examples/axe/chop/Flickr1_82949260_9859ca6c20_o.jpg"
+            funcMaskSrc="./examples/axe/chop/Flickr1_82949260_9859ca6c20_o_Function_mask.png"
+            depMaskSrc="./examples/axe/chop/Flickr1_82949260_9859ca6c20_o_Dependency_mask.png"
+            audioSrc="./examples/axe/chop/0OH2mR4-nX0_2.82_5.72.mp3"
             transcript="Axe - Chop"
           ></ImageMaskSlider>
           <ImageMaskSlider
-            imageSrc="/examples/bottle_cap/twist/Products-10K_train-00013-of-00029_88.jpg"
-            funcMaskSrc="/examples/bottle_cap/twist/Products-10K_train-00013-of-00029_88_Function_mask.png"
-            depMaskSrc="/examples/bottle_cap/twist/Products-10K_train-00013-of-00029_88_Dependency_mask.png"
-            audioSrc="/examples/bottle_cap/twist/P1FXGXxfcVw_2.23_4.44.mp3"
+            imageSrc="./examples/bottle_cap/twist/Products-10K_train-00013-of-00029_88.jpg"
+            funcMaskSrc="./examples/bottle_cap/twist/Products-10K_train-00013-of-00029_88_Function_mask.png"
+            depMaskSrc="./examples/bottle_cap/twist/Products-10K_train-00013-of-00029_88_Dependency_mask.png"
+            audioSrc="./examples/bottle_cap/twist/P1FXGXxfcVw_2.23_4.44.mp3"
             transcript="Bottle Cap - Twist"
           ></ImageMaskSlider>
         </Carousel>
