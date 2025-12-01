@@ -25,7 +25,7 @@ class ResourceBtn extends React.Component {
       arxiv: SiArxiv,
       code: FaGithub,
       video: FaYoutube,
-      benchmark: HuggingFace,
+      dataset: HuggingFace,
       checkpoint: HuggingFace,
       demo: GoogleColab,
     };

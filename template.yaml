@@ -9,7 +9,7 @@ resources:
   code: https://github.com/jscslld/AVAGFormer
   video:
   demo:
-  benchmark: https://huggingface.co/datasets/lulidong/AVAGD
+  dataset: https://huggingface.co/datasets/lulidong/AVAGD
   checkpoint:
 description: academic projectpage template that supports markdown and KaTeX
 
