@@ -131,8 +131,8 @@ class Template extends React.Component {
           <Body body={data.body} /> */}
           <Dataset />
           <Baseline />
-          <Citation bibtex={data.bibtex} />
-          <Projects projects={data.projects} />
+          {/* <Citation bibtex={data.bibtex} /> */}
+          {/* <Projects projects={data.projects} /> */}
         </div>
         <Footer />
       </div>
