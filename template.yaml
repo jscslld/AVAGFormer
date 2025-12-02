@@ -5,7 +5,7 @@ title: 'Learning Visual Affordance from Audio'
 journal: 'Under Review'
 resources:
   paper: # https://openreview.net/
-  arxiv: https://arxiv.org/abs/xxxxx
+  arxiv: https://arxiv.org/abs/2512.02005
   code: https://github.com/jscslld/AVAGFormer
   video:
   demo:
@@ -43,7 +43,15 @@ affiliations:
 meta:
   -
 bibtex: >
-  test
+  @misc{lu2025learningvisualaffordanceaudio,
+      title={Learning Visual Affordance from Audio}, 
+      author={Lidong Lu and Guo Chen and Zhu Wei and Yicheng Liu and Tong Lu},
+      year={2025},
+      eprint={2512.02005},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.02005}, 
+  }
 
 abstract: |
   <p style="text-align:justify">
